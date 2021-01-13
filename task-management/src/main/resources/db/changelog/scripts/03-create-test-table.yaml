@@ -1,0 +1,15 @@
+databaseChangeLog:
+  - changeSet:
+      id:  createTestTable
+      author:  My Nguyen
+      changes:
+        -  createTable:
+             catalogName:  test
+             columns:
+               -  column:
+                    name:  name
+                    type:  varchar(255)
+             remarks:  A String
+             schemaName:  public
+             tableName:  person
+             tablespace:  A String
