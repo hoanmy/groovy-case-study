@@ -22,3 +22,5 @@ databaseChangeLog:
             relativeToChangelogFile: true
             splitStatements: true
             stripComments: true
+  - include:
+      file: db/changelog/scripts/03-create-test-table.yaml
